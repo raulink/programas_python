@@ -1,0 +1,7 @@
+python_docx
+pywin32
+xlwings
+pandas
+matplotlib
+docxtpl
+docx
