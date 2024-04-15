@@ -25,4 +25,4 @@ for index, row in df.iterrows():
     context.update(my_context)
 
     doc.render(context)
-    doc.save(f"generated_doc_{index}.docx")
+    doc.save(f"output/generated_doc_{index}.docx")
