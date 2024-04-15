@@ -10,7 +10,7 @@ from docxtpl import DocxTemplate
 tpl=DocxTemplate('templates/header_footer_entities_tpl.docx')
 
 context = {
-    'title' : 'Header and footer test',
+    'title' : 'Encabezado y pie test',
 }
 
 tpl.render(context)

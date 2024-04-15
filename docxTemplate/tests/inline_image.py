@@ -9,7 +9,9 @@ from docxtpl import DocxTemplate, InlineImage
 # for height and width you have to use millimeters (Mm), inches or points(Pt) class :
 from docx.shared import Mm, Inches, Pt
 import jinja2
-from jinja2.utils import Markup
+#from jinja2.utils import Markup
+
+from markupsafe import Markup
 
 tpl=DocxTemplate('templates/inline_image_tpl.docx')
 

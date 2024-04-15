@@ -12,7 +12,7 @@ DEST_FILE = 'output/header_footer_image.docx'
 tpl=DocxTemplate('templates/header_footer_image_tpl.docx')
 
 context = {
-    'mycompany' : 'The World Wide company',
+    'mycompany' : 'Mi Teleferico',
 }
 tpl.replace_media('templates/dummy_pic_for_header.png','templates/python.png')
 tpl.render(context)
